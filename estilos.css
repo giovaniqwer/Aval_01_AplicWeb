@@ -1,0 +1,76 @@
+body{
+	width: 750px;
+	height:  auto;
+	text-align: justify;
+}
+.topo{
+	position: absolute;
+	width: 500px;
+	height: auto;
+	top: 0;
+	left: 50px;
+}
+
+nav ul{
+	background: #efefef;
+	background: linear-gradient(top , #efefef 0% , #bbbbbb 100%) ;
+	background:-moz-linear-gradient( top , #efefef 0% , #bbbbbb 100%) ;
+	background:-webkit-linear-gradient(top, #efefef 0%, #bbbbbb 100%) ;
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding:0 370px;
+	border-radius: 10px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+
+nav ul li{
+	float:left;
+}
+
+.menu{
+	position: absolute;
+	top: 60px;
+	left: 50px;
+}
+
+.box1{
+	position: absolute;
+	left: 50px;
+	top: 150px;	
+}
+
+.box2{
+	position: absolute;
+	top: 140px;
+	left: 870px;
+	width: 500px;
+}
+
+.box3{
+	position: absolute;
+	top: 450px;
+	left: 50px;
+	width: 950px;
+}
+.box4{
+	position: absolute;
+	top: 710px;
+	left: 50px;
+	width: 950px;
+}
+.rodape{
+	position: absolute;
+	font-size: 10;
+	bottom: -200px;
+	left: 300px;
+}
+.box5{
+	position: absolute;
+	width: 340px;
+	height: 451px;
+	background:#808080;
+	top:  470px;
+	left: 1030px;
+	text-align: center;
+}
